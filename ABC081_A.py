@@ -1,4 +1,4 @@
-# ABC081_A.py
+# ABC081_A
 
 S = input()
 

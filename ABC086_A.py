@@ -1,4 +1,4 @@
-# ABC086_A.py
+# ABC086_A
 
 a, b = map(int, input().split())
 
