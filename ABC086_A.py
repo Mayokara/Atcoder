@@ -1,7 +1,6 @@
 # ABC086_A.py
 
-a = int(input())
-b = int(input())
+a, b = map(int, input().split())
 
 if (a * b) % 2 == 1:
     print('Odd')
