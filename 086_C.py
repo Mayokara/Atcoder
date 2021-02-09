@@ -24,6 +24,27 @@ def route(list_txy):
 
 route(list_txy)
 
-# for i in range(n):
-#     t, x, y = map(int, input().split())
-#     dt = t
+
+# t, x, yをリスト化しない
+n = int(input())
+nowt = 0
+nowx = 0
+nowy = 0
+for _ in range(n):
+    t, x, y = map(int, input().split())
+    dist = abs(x - nowx) + abs(y - nowy)
+
+    if t - now < dist:
+        print('No')
+        exit()
+
+    if (t - now) % 2 != dist % 2:
+        print('No')
+        exit()
+
+    nowt = t
+    nowx = x
+    nowy = y
+ 
+
+print('Yes')
