@@ -34,11 +34,11 @@ for _ in range(n):
     t, x, y = map(int, input().split())
     dist = abs(x - nowx) + abs(y - nowy)
 
-    if t - now < dist:
+    if t - nowt < dist:
         print('No')
         exit()
 
-    if (t - now) % 2 != dist % 2:
+    if (t - nowt) % 2 != dist % 2:
         print('No')
         exit()
 
