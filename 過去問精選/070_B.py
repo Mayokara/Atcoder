@@ -15,3 +15,5 @@ if time >= 0:
     print(time)
 else:
     print(0)
+
+# max(min(b, d) - max(a, c), 0) を使うとスッキリする
