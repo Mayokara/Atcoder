@@ -14,7 +14,10 @@ for i in range(h):
                 flag = True
             elif (0 < j < w) and (s[i][j - 1] == '#'):
                 flag = True
-
+        if flag is False:
+            break
+    if flag is False:
+        break
 
 if flag is True:
     print('Yes')
