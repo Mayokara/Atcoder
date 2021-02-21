@@ -1,3 +1,5 @@
+# Greedy
+# 後ろから解く
 
 def judge(strings):
     s = strings

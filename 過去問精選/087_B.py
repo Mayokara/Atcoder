@@ -1,3 +1,6 @@
+# for文の全探索
+# 二重三重ループ
+
 a = int(input())
 b = int(input())
 c = int(input())

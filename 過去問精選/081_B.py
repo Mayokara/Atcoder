@@ -1,4 +1,4 @@
-# ABC081_B
+# for文の全探索
 
 n = int(input())
 A = list(map(int, input().split()))

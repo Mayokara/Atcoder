@@ -1,3 +1,5 @@
+# ループ
+
 a, b, c = map(int, input().split())
 
 # aとbの最大公約数求める関数

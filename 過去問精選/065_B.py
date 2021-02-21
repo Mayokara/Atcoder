@@ -4,6 +4,7 @@ a = [int(input()) for _ in range(n)]
 # a_pushed = [0 for _ in range(n)] #ボタンiが押された回数
 # cnt = 0 # 総プッシュ回数
 # now = 1 # 光っているボタン
+# ループ
 
 # for i in range(n):
 #     a_pushed[i] += 1

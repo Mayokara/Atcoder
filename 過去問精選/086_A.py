@@ -1,4 +1,4 @@
-# ABC086_A
+# 偶奇判定
 
 a, b = map(int, input().split())
 

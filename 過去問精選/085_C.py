@@ -1,4 +1,5 @@
-
+# for文全探索
+# 二重三重ループ
 n, y = map(int, input().split())
 
 def bills(n, y):

@@ -1,3 +1,5 @@
+# パリティ
+
 import sys
 n = int(input())
 list_txy = [[0, 0, 0]]

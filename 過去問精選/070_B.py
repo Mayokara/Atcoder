@@ -1,3 +1,5 @@
+# 区間の重なり
+
 a, b, c, d = map(int, input().split())
 
 if b >= d:
