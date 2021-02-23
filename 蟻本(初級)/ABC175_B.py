@@ -2,11 +2,17 @@
 # 三角形成立条件
 
 n = int(input())
-l = list(map(int, input().split()))
+l = sorted(map(int, input().split()))
 
-for i in range(0, n):
-    for j in range(i + 1, n):
+cnt = 0
+for i in range(n - 2):
+    for j in range(i + 1, n - 1):
+        if l[i] == l[j]:
+            continue
         for k in range(j + 1, n):
-            if l[i] != l[j] != l[k]:
-                if l[i] + l[j] > l[k]:
-                    
+            if l[j] == l[k]:
+                continue
+            elif (l[i] + l[j]) > l[k]:
+                cnt += 1
+
+print(cnt)
